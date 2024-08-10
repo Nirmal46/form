@@ -1,0 +1,128 @@
+body{
+    font-family: ans-serif, s'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+
+.navbar{
+    background-color: grey;
+    border: 2px solid;
+    border-color: black;
+    margin: 0px;
+    display: flex;
+    position: fixed;
+}
+.logo img{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    padding-top: 14px;
+    padding-left: 15px;
+    padding-bottom: 4px;
+    padding-right: 12px;
+    border-radius: 25px;
+
+    
+}
+.name{
+    text-align: center;
+    background-color: rgb(141, 141, 117);
+    padding: 4px;
+}
+
+
+.list{
+    flex-direction: column;
+    padding-left: 809px;
+    display: flex;
+    word-spacing: 90px;
+}
+
+.form{
+    background-image: url(background\ pic\ for\ login\ page.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100% ;
+    background-attachment:unset;
+    width: 500px;
+    border: 2px solid;
+    border-width:   5px ;
+    border-color: rgb(74, 204, 74);
+    margin-top: 200px;
+    background-color: rgba(221, 213, 213, 0.548); 
+    margin-left:  400px; 
+    margin-right: 40px ;
+}
+input{
+    font-family:Arial, Helvetica, sans-serif;
+    border-radius: 12px;
+    width: 200px;
+    height: 24px;
+    border-color: aqua;
+}
+.new{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 8px;
+    color: rgb(255, 255, 255);
+    
+}
+
+button{
+    background-color: rgb(58, 140, 233);
+    color: rgb(255, 251, 0);
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 12px;
+    align-items: center;
+}
+button:hover{
+    color: lightgreen;
+    background-color: yellow;
+    transition: 0.7s;
+}
+button:active{
+    background-color:chartreuse;
+    transition: 0ms;
+}
+
+
+a{
+    text-decoration-color: black;
+    color: rgb(238, 195, 195);
+    text-decoration: rgb(0, 0, 255) underline;
+}
+.fp{
+    text-align:right;
+        margin-right: 40px;
+        font-size: small;
+        text-decoration: none;
+        color: red;
+}
+.fp:active{
+ color: red;
+}
+.aqua{
+    color: aqua;
+    font-weight: 200;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.button2{
+    background-color: rgb(113, 150, 151);
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 12px;
+    align-items: center;
+    width: 400px;
+}
+.button2:hover{
+    color: lightgreen;
+    background-color: yellow;
+    transition: 0.5s;
+}
+.button2:active{
+    background-color: lightsalmon;
+    transition: 0ms;
+}
